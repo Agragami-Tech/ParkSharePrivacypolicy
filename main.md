@@ -1,36 +1,45 @@
 # Privacy Policy for Rememberly
 
-**Last Updated: April 17, 2026**
+**Last Updated: May 10, 2026**
 
-This Privacy Policy describes how Rememberly ("we", "us", or "our") collects, uses, and shares your information when you use our mobile application (the "App").
+Your privacy is our priority. This Privacy Policy explains how Rememberly ("we," "us," or "our") collects, uses, and protects your information when you use our mobile application.
 
-### 1. Information Collection and Use
+## 1. Data Collection and Usage
 
-For a better experience while using our App, we may require you to provide us with certain personally identifiable information and permissions, including but not limited to:
+### On-Device Processing (Local First)
+Rememberly is designed with a "local-first" philosophy. Most of your data stays on your device:
+*   **Screenshots & Photos:** We access your photo gallery only to perform on-device Optical Character Recognition (OCR) and indexing. These images are processed locally and are not uploaded to our servers unless you explicitly enable Cloud Sync.
+*   **AI Analysis:** Our "Local Intelligence" mode uses on-device Large Language Models (LLMs) to summarize and categorize your memories. This processing happens entirely on your hardware.
 
-#### a) Camera Permission
-The App requires access to your device's camera to allow you to take photos and add them to your digital memories. Photos taken within the App are stored locally on your device and are only uploaded to our secure servers if you choose to enable cloud sync.
+### Cloud Data (Optional Sync)
+If you choose to create an account and enable Cloud Sync:
+*   **Account Information:** We collect your email address via Supabase Auth to manage your account and subscription.
+*   **Backups:** Encrypted versions of your indexed text and metadata are stored securely in our cloud database to allow for multi-device synchronization.
 
-#### b) Media Library Access
-We request access to your photo library to detect and index screenshots so you can search them easily using our AI features.
+### Analytics
+We use Mixpanel and basic diagnostic tools to understand app performance and usage trends. This data is anonymized and does not include your personal memories or screenshot content.
 
-#### c) Audio Recording
-Access to your microphone is used specifically for "Voice Journaling" features.
+## 2. Permissions We Request
+*   **Media Library:** To index and search your screenshots.
+*   **Notifications:** To provide focus session alerts and memory reminders.
+*   **Camera:** To allow you to take photos directly within the app.
+*   **Microphone:** (Optional) To record and transcribe voice notes.
 
-### 2. Data Storage and Security
-We value your trust in providing us your information. All data stored on our servers is encrypted. We do not sell or share your personal data with third-party advertisers.
+## 3. Subscriptions and Payments
+Payments are processed securely through the Apple App Store (iOS) and Google Play Store (Android). We do not store or have access to your credit card information. We only receive confirmation of your subscription status.
 
-### 3. Service Providers
-We may employ third-party companies and individuals (such as Supabase for database management or Mixpanel for analytics) to facilitate our service. These third parties have access to your information only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.
+## 4. Data Deletion
+You have full control over your data:
+*   You can clear your local index at any time within the app settings.
+*   You can delete your account and all associated cloud data permanently via the "Hub" section in the app.
 
-### 4. Links to Other Sites
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us.
+## 5. Children's Privacy
+Rememberly is not intended for children under the age of 13. We do not knowingly collect personal information from children.
 
-### 5. Children's Privacy
-These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13.
+## 6. Contact Us
+If you have any questions about this Privacy Policy or our data practices, please contact us at:
+**Email:** cecilghimire@gmail.com
 
-### 6. Changes to This Privacy Policy
-We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes.
+---
 
-### 7. Contact Us
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at [cecilghimire@me.com].
+By using Rememberly, you agree to the terms outlined in this policy. We reserve the right to update this policy as our features evolve.
